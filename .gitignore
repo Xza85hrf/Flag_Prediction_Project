@@ -1,12 +1,263 @@
-# unpacked plugin folders
-plugins/**/*
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# files directory where uploads go
-files
+# C extensions
+*.so
 
-# DBMigrate plugin: generated SQL
-db/sql
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# AssetBundler plugin: generated bundles
-javascripts/bundles
-stylesheets/bundles
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Project specific
+/models/*.pth
+/models/*.pkl
+/data/flag_images/*
+/data/processed/*
+/logs/*.png
+/logs/*.log
+/logs/tensorboard_logs/
+/logs/performance_log.csv
+
+# Ignore temporary files
+*.tmp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Docker
+.dockerignore
+
+# Ignore any local configuration files
+config_local.py
+
+# Ignore model checkpoints
+*.ckpt
+
+# Ignore large datasets
+*.h5
+*.csv
+*.json
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore virtual environment
+venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore test coverage reports
+.coverage
+htmlcov/
+
+# Ignore performance profiling results
+*.prof
+
+# Ignore any sensitive or personal information files
+*.key
+*.pem
+*.env
+
+# Ignore backup files
+*.bak
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore package build directories
+*.egg-info/
+dist/
+build/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore poetry lock file
+poetry.lock
+
+# Ignore pytest cache
+.pytest_cache/
+
+# Ignore mypy cache
+.mypy_cache/
+
+# Ignore pylint cache
+.pylint.d/
+
+# Ignore rope project settings
+.ropeproject/
+
+# Ignore Sphinx documentation
+docs/_build/
+
+# Ignore coverage reports
+.coverage.*
+
+# Ignore tox environments
+.tox/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore all log files
+*.log
+
+# Ignore all temporary files
+*~
+
+# Ignore all swap files
+*.swp
+*.swo
+
+# Ignore all compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore all cache directories
+__pycache__/
+.cache/
+
+# Ignore all egg directories
+*.egg-info/
+.eggs/
+
+# Ignore all wheel directories
+*.whl
+
+# Ignore all build directories
+build/
+dist/
+
+# Ignore all version control directories
+.git/
+.hg/
+.svn/
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
