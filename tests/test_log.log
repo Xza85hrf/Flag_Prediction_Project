@@ -1,0 +1,227 @@
+2024-10-07 10:45:31,701 - root - INFO - Test session started at 2024-10-07 10:45:31.701147
+2024-10-07 10:45:31,703 - src.cli - INFO - Starting flag image download...
+2024-10-07 10:45:31,703 - tests.conftest - INFO - Test tests/test_cli.py::test_download_command - passed
+2024-10-07 10:45:31,705 - src.cli - INFO - Starting image processing with 2 duplications...
+2024-10-07 10:45:31,705 - src.cli - INFO - Image processing completed successfully.
+2024-10-07 10:45:31,705 - src.cli - INFO - Exiting image processing.
+2024-10-07 10:45:31,705 - tests.conftest - INFO - Test tests/test_cli.py::test_process_command - passed
+2024-10-07 10:45:31,708 - tests.conftest - INFO - Test tests/test_cli.py::test_process_command_invalid_input - passed
+2024-10-07 10:45:31,710 - tests.conftest - INFO - Test tests/test_cli.py::test_process_command_invalid_duplicate_times - passed
+2024-10-07 10:45:31,711 - src.cli - INFO - Starting model training...
+2024-10-07 10:45:31,711 - src.cli - INFO - Training configuration: Multi-label: True, Cross-validate: True, Models: ['resnet50', 'mobilenet_v2']
+2024-10-07 10:45:31,711 - src.cli - INFO - Model training completed successfully.
+2024-10-07 10:45:31,711 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command - passed
+2024-10-07 10:45:31,713 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command_invalid_model - passed
+2024-10-07 10:45:31,718 - src.cli - INFO - Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_predict_command0\test_image.png using resnet50: Test Country
+2024-10-07 10:45:31,719 - tests.conftest - INFO - Test tests/test_cli.py::test_predict_command - passed
+2024-10-07 10:45:31,721 - tests.conftest - INFO - Test tests/test_cli.py::test_predict_command_nonexistent_image - passed
+2024-10-07 10:45:31,722 - src.cli - INFO - Starting full pipeline...
+2024-10-07 10:45:31,723 - src.cli - INFO - Training models: ['resnet50']
+2024-10-07 10:45:31,723 - src.cli - INFO - Full pipeline completed successfully.
+2024-10-07 10:45:31,723 - src.cli - INFO - Exiting full pipeline.
+2024-10-07 10:45:31,723 - tests.conftest - INFO - Test tests/test_cli.py::test_full_pipeline_command - passed
+2024-10-07 10:45:31,724 - src.cli - INFO - Starting full pipeline...
+2024-10-07 10:45:31,725 - src.cli - ERROR - An error occurred during the full pipeline: Test error
+2024-10-07 10:45:31,725 - src.cli - INFO - Exiting full pipeline.
+2024-10-07 10:45:31,725 - tests.conftest - INFO - Test tests/test_cli.py::test_full_pipeline_command_exception - passed
+2024-10-07 10:45:31,729 - tests.conftest - INFO - Test tests/test_cli.py::test_logging_setup - passed
+2024-10-07 10:45:31,730 - src.cli - INFO - Starting model training...
+2024-10-07 10:45:31,731 - src.cli - INFO - Training configuration: Multi-label: True, Cross-validate: True, Models: ['resnet50']
+2024-10-07 10:45:31,731 - src.cli - INFO - Model training completed successfully.
+2024-10-07 10:45:31,731 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command_combinations[True-True-models0] - passed
+2024-10-07 10:45:31,732 - src.cli - INFO - Starting model training...
+2024-10-07 10:45:31,732 - src.cli - INFO - Training configuration: Multi-label: False, Cross-validate: False, Models: ['mobilenet_v2']
+2024-10-07 10:45:31,732 - src.cli - INFO - Model training completed successfully.
+2024-10-07 10:45:31,733 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command_combinations[False-False-models1] - passed
+2024-10-07 10:45:31,734 - src.cli - INFO - Starting model training...
+2024-10-07 10:45:31,734 - src.cli - INFO - Training configuration: Multi-label: True, Cross-validate: False, Models: ['resnet50', 'mobilenet_v2']
+2024-10-07 10:45:31,734 - src.cli - INFO - Model training completed successfully.
+2024-10-07 10:45:31,734 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command_combinations[True-False-models2] - passed
+2024-10-07 10:45:31,738 - tests.conftest - INFO - Test tests/test_cli.py::test_predict_command_logging - passed
+2024-10-07 10:45:31,740 - src.cli - INFO - Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_predict_command_file_writ0\test_image.png using efficientnet_b0: Test Country
+2024-10-07 10:45:31,745 - tests.conftest - INFO - Test tests/test_cli.py::test_predict_command_file_writing - passed
+2024-10-07 10:45:31,746 - tests.conftest - INFO - Test tests/test_cli.py::test_cli_with_invalid_command - passed
+2024-10-07 10:45:31,748 - tests.conftest - INFO - Test tests/test_cli.py::test_train_command_with_conflicting_options - passed
+2024-10-07 10:45:31,751 - tests.conftest - INFO - Test tests/test_cli.py::test_predict_command_with_nonexistent_model - passed
+2024-10-07 10:45:31,754 - src.data_collection - INFO - Downloading flags to: C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_download_flag_images0\test_flags
+2024-10-07 10:45:31,754 - src.data_collection - INFO - Found 1 flag links
+2024-10-07 10:45:31,756 - src.data_collection - INFO - Total flags processed: 1
+2024-10-07 10:45:31,756 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images - passed
+2024-10-07 10:45:31,758 - src.data_collection - INFO - Downloading flag for test_country from https://example.com/flag.png
+2024-10-07 10:45:31,759 - src.data_collection - INFO - Downloaded flag for test_country
+2024-10-07 10:45:31,867 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag[flag_info0-image/png-test_country.png] - passed
+2024-10-07 10:45:32,060 - src.data_collection - INFO - Downloading flag for svg_country from https://example.com/flag.svg
+2024-10-07 10:45:32,060 - src.data_collection - INFO - Converted SVG to PNG for svg_country
+2024-10-07 10:45:32,061 - src.data_collection - INFO - Downloaded flag for svg_country
+2024-10-07 10:45:32,169 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag[flag_info1-image/svg+xml-svg_country.png] - passed
+2024-10-07 10:45:32,172 - src.data_collection - INFO - Downloading flag for small_country from https://example.com/small_flag.png
+2024-10-07 10:45:32,172 - src.data_collection - WARNING - Downloaded flag for small_country is too small, skipping
+2024-10-07 10:45:32,173 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_small_file - passed
+2024-10-07 10:45:32,175 - src.data_collection - ERROR - Unexpected error downloading flag for error_country: Network error
+Traceback (most recent call last):
+  File "C:\Users\srude\Desktop\Final_flag_prediction_project_ver_3.0\flag_prediction_project\src\data_collection.py", line 155, in download_flag
+    flag_response = session.get(flag_url, timeout=10)
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1173, in _execute_mock_call
+    raise effect
+Exception: Network error
+2024-10-07 10:45:32,176 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_network_error - passed
+2024-10-07 10:45:32,178 - src.data_collection - ERROR - Network error during flag download: Network error
+Traceback (most recent call last):
+  File "C:\Users\srude\Desktop\Final_flag_prediction_project_ver_3.0\flag_prediction_project\src\data_collection.py", line 333, in download_flag_images
+    flag_info_list = download_flags(session)  # Get flag information
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1114, in __call__
+    return self._mock_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1118, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+  File "C:\ProgramData\anaconda3\envs\flag_prediction\lib\unittest\mock.py", line 1173, in _execute_mock_call
+    raise effect
+requests.exceptions.RequestException: Network error
+2024-10-07 10:45:32,179 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images_network_error - passed
+2024-10-07 10:45:32,180 - tests.conftest - INFO - Test tests/test_data_collection.py::test_sanitize_country_name - passed
+2024-10-07 10:45:32,185 - tests.conftest - INFO - Test tests/test_data_collection.py::test_save_metadata - passed
+2024-10-07 10:45:32,187 - src.data_collection - WARNING - No valid flag links found on the page.
+2024-10-07 10:45:32,188 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images_no_flags - passed
+2024-10-07 10:45:32,190 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images_invalid_params[0-5-1-ValueError] - passed
+2024-10-07 10:45:32,191 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images_invalid_params[3-0-1-ValueError] - passed
+2024-10-07 10:45:32,193 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flag_images_invalid_params[3-5-0-ValueError] - passed
+2024-10-07 10:45:32,195 - tests.conftest - INFO - Test tests/test_data_collection.py::test_get_flag_image_url - passed
+2024-10-07 10:45:32,197 - src.data_collection - WARNING - Failed to get image URL for Test_Flag.png: Network error
+2024-10-07 10:45:32,197 - tests.conftest - INFO - Test tests/test_data_collection.py::test_get_flag_image_url_error - passed
+2024-10-07 10:45:32,199 - src.data_collection - INFO - Page title: Test Title
+2024-10-07 10:45:32,199 - src.data_collection - INFO - Gathering flag information...
+2024-10-07 10:45:32,199 - src.data_collection - INFO - Found flag for test_country: https://example.com/flag.png
+2024-10-07 10:45:32,199 - src.data_collection - INFO - Finished gathering flag information.
+2024-10-07 10:45:32,200 - tests.conftest - INFO - Test tests/test_data_collection.py::test_download_flags - passed
+2024-10-07 10:45:33,215 - src.data_collection - WARNING - Retrying after error: . Attempt 1
+2024-10-07 10:45:35,230 - src.data_collection - WARNING - Retrying after error: . Attempt 2
+2024-10-07 10:45:35,230 - tests.conftest - INFO - Test tests/test_data_collection.py::test_retry_with_exponential_backoff - passed
+2024-10-07 10:45:36,242 - src.data_collection - WARNING - Retrying after error: Test error. Attempt 1
+2024-10-07 10:45:36,242 - src.data_collection - ERROR - Max retries reached. Failed to execute mock_func
+2024-10-07 10:45:37,255 - src.data_collection - WARNING - Retrying after error: Test error. Attempt 1
+2024-10-07 10:45:39,257 - src.data_collection - WARNING - Retrying after error: Test error. Attempt 2
+2024-10-07 10:45:39,258 - tests.conftest - INFO - Test tests/test_data_collection.py::test_retry_with_exponential_backoff_logging - passed
+2024-10-07 10:45:39,259 - src.data_collection - ERROR - Max retries reached. Failed to execute mock_func
+2024-10-07 10:45:39,260 - src.data_collection - WARNING - Retrying after error: . Attempt 1
+2024-10-07 10:45:39,260 - src.data_collection - WARNING - Retrying after error: . Attempt 2
+2024-10-07 10:45:39,260 - src.data_collection - WARNING - Retrying after error: . Attempt 3
+2024-10-07 10:45:39,261 - tests.conftest - INFO - Test tests/test_data_collection.py::test_retry_with_exponential_backoff_increasing_delay - passed
+2024-10-07 10:45:39,280 - tests.conftest - INFO - Test tests/test_data_utils.py::test_load_data - passed
+2024-10-07 10:45:39,302 - tests.conftest - INFO - Test tests/test_data_utils.py::test_flag_dataset - passed
+2024-10-07 10:45:39,318 - tests.conftest - INFO - Test tests/test_data_utils.py::test_get_data_loaders - passed
+2024-10-07 10:45:39,355 - tests.conftest - INFO - Test tests/test_data_utils.py::test_flag_dataset_invalid_image - passed
+2024-10-07 10:45:39,357 - tests.conftest - INFO - Test tests/test_data_utils.py::test_load_data_empty_directory - passed
+2024-10-07 10:45:39,378 - tests.conftest - INFO - Test tests/test_data_utils.py::test_get_data_loaders_single_class - passed
+2024-10-07 10:45:39,428 - tests.conftest - INFO - Test tests/test_data_utils.py::test_get_data_loaders_imbalanced_data - passed
+2024-10-07 10:45:39,451 - tests.conftest - INFO - Test tests/test_data_utils.py::test_flag_dataset_multi_label_threshold - passed
+2024-10-07 10:45:39,495 - tests.conftest - INFO - Test tests/test_data_utils.py::test_get_data_loaders_reproducibility - passed
+2024-10-07 10:45:39,518 - tests.conftest - INFO - Test tests/test_data_utils.py::test_flag_dataset_augmentation - passed
+2024-10-07 10:45:39,535 - tests.conftest - INFO - Test tests/test_data_utils.py::test_get_data_loaders_pin_memory - passed
+2024-10-07 10:45:39,542 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_image - passed
+2024-10-07 10:45:39,608 - src.image_processing - ERROR - Error processing image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_image_negative0\corrupt_image.png: cannot identify image file 'C:\\Users\\srude\\AppData\\Local\\Temp\\pytest-of-srude\\pytest-162\\test_process_image_negative0\\corrupt_image.png'
+2024-10-07 10:45:39,609 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_image_negative - passed
+2024-10-07 10:45:39,617 - tests.conftest - INFO - Test tests/test_image_processing.py::test_apply_augmentation - passed
+2024-10-07 10:45:39,630 - src.image_processing - INFO - Processed and augmented test_country_0 2 times
+2024-10-07 10:45:39,630 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_and_augment_batch[1] - passed
+2024-10-07 10:45:39,643 - src.image_processing - INFO - Processed and augmented test_country_0 2 times
+2024-10-07 10:45:39,653 - src.image_processing - INFO - Processed and augmented test_country_1 2 times
+2024-10-07 10:45:39,662 - src.image_processing - INFO - Processed and augmented test_country_2 2 times
+2024-10-07 10:45:39,663 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_and_augment_batch[3] - passed
+2024-10-07 10:45:39,680 - src.image_processing - INFO - Processed and augmented test_country_0 2 times
+2024-10-07 10:45:39,691 - src.image_processing - INFO - Processed and augmented test_country_1 2 times
+2024-10-07 10:45:39,701 - src.image_processing - INFO - Processed and augmented test_country_2 2 times
+2024-10-07 10:45:39,711 - src.image_processing - INFO - Processed and augmented test_country_3 2 times
+2024-10-07 10:45:39,720 - src.image_processing - INFO - Processed and augmented test_country_4 2 times
+2024-10-07 10:45:39,721 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_and_augment_batch[5] - passed
+2024-10-07 10:45:39,725 - src.image_processing - ERROR - Error processing image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_and_augment_batch3\corrupt_image.png: cannot identify image file 'C:\\Users\\srude\\AppData\\Local\\Temp\\pytest-of-srude\\pytest-162\\test_process_and_augment_batch3\\corrupt_image.png'
+2024-10-07 10:45:39,725 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_and_augment_batch_negative - passed
+2024-10-07 10:45:39,730 - src.image_processing - INFO - Starting image processing...
+2024-10-07 10:45:40,241 - src.image_processing - INFO - Creating CSV file at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_1_0\processed_data.csv
+2024-10-07 10:45:40,242 - src.image_processing - INFO - Processed data saved to C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_1_0\processed_data.csv with 4 rows and 2 columns
+2024-10-07 10:45:40,242 - src.image_processing - INFO - Image processing completed. CSV file created at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_1_0\processed_data.csv
+2024-10-07 10:45:40,242 - src.image_processing - INFO - Image processing function completed.
+2024-10-07 10:45:40,314 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_images[1] - passed
+2024-10-07 10:45:40,319 - src.image_processing - INFO - Starting image processing...
+2024-10-07 10:45:40,866 - src.image_processing - INFO - Creating CSV file at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_3_0\processed_data.csv
+2024-10-07 10:45:40,867 - src.image_processing - INFO - Processed data saved to C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_3_0\processed_data.csv with 12 rows and 2 columns
+2024-10-07 10:45:40,867 - src.image_processing - INFO - Image processing completed. CSV file created at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_3_0\processed_data.csv
+2024-10-07 10:45:40,867 - src.image_processing - INFO - Image processing function completed.
+2024-10-07 10:45:40,929 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_images[3] - passed
+2024-10-07 10:45:40,934 - src.image_processing - INFO - Starting image processing...
+2024-10-07 10:45:41,523 - src.image_processing - INFO - Creating CSV file at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_5_0\processed_data.csv
+2024-10-07 10:45:41,524 - src.image_processing - INFO - Processed data saved to C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_5_0\processed_data.csv with 20 rows and 2 columns
+2024-10-07 10:45:41,525 - src.image_processing - INFO - Image processing completed. CSV file created at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_process_images_5_0\processed_data.csv
+2024-10-07 10:45:41,525 - src.image_processing - INFO - Image processing function completed.
+2024-10-07 10:45:41,602 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_images[5] - passed
+2024-10-07 10:45:41,607 - src.image_processing - ERROR - No valid processed images found to create CSV file.
+2024-10-07 10:45:41,607 - src.image_processing - ERROR - Error creating CSV file: No valid processed images found to create CSV file.
+2024-10-07 10:45:41,607 - src.image_processing - ERROR - An error occurred during image processing: No valid processed images found to create CSV file.
+2024-10-07 10:45:41,681 - tests.conftest - INFO - Test tests/test_image_processing.py::test_process_images_no_images - passed
+2024-10-07 10:45:41,683 - src.image_processing - INFO - Creating CSV file at C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_create_processed_data_csv0\output.csv
+2024-10-07 10:45:41,684 - src.image_processing - INFO - Processed data saved to C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_create_processed_data_csv0\output.csv with 2 rows and 2 columns
+2024-10-07 10:45:41,689 - tests.conftest - INFO - Test tests/test_image_processing.py::test_create_processed_data_csv - passed
+2024-10-07 10:45:41,691 - src.image_processing - ERROR - No valid processed images found to create CSV file.
+2024-10-07 10:45:41,691 - src.image_processing - ERROR - Error creating CSV file: No valid processed images found to create CSV file.
+2024-10-07 10:45:41,692 - tests.conftest - INFO - Test tests/test_image_processing.py::test_create_processed_data_csv_negative - passed
+2024-10-07 10:45:42,012 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-resnet50-1] - passed
+2024-10-07 10:45:42,341 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-resnet50-10] - passed
+2024-10-07 10:45:42,661 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-resnet50-100] - passed
+2024-10-07 10:45:42,784 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-mobilenet_v2-1] - passed
+2024-10-07 10:45:42,907 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-mobilenet_v2-10] - passed
+2024-10-07 10:45:43,018 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-mobilenet_v2-100] - passed
+2024-10-07 10:45:43,175 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-efficientnet_b0-1] - passed
+2024-10-07 10:45:43,332 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-efficientnet_b0-10] - passed
+2024-10-07 10:45:43,511 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[True-efficientnet_b0-100] - passed
+2024-10-07 10:45:43,810 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-resnet50-1] - passed
+2024-10-07 10:45:44,129 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-resnet50-10] - passed
+2024-10-07 10:45:44,453 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-resnet50-100] - passed
+2024-10-07 10:45:44,577 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-mobilenet_v2-1] - passed
+2024-10-07 10:45:44,699 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-mobilenet_v2-10] - passed
+2024-10-07 10:45:44,807 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-mobilenet_v2-100] - passed
+2024-10-07 10:45:44,952 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-efficientnet_b0-1] - passed
+2024-10-07 10:45:45,109 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-efficientnet_b0-10] - passed
+2024-10-07 10:45:45,272 - tests.conftest - INFO - Test tests/test_model.py::test_create_model[False-efficientnet_b0-100] - passed
+2024-10-07 10:45:45,274 - tests.conftest - INFO - Test tests/test_model.py::test_create_model_invalid_type - passed
+2024-10-07 10:45:45,494 - tests.conftest - INFO - Test tests/test_model.py::test_get_optimizer - passed
+2024-10-07 10:45:45,495 - tests.conftest - INFO - Test tests/test_model.py::test_get_criterion[True] - passed
+2024-10-07 10:45:45,496 - tests.conftest - INFO - Test tests/test_model.py::test_get_criterion[False] - passed
+2024-10-07 10:45:45,721 - tests.conftest - INFO - Test tests/test_model.py::test_get_scheduler - passed
+2024-10-07 10:45:45,935 - tests.conftest - INFO - Test tests/test_model.py::test_flag_classifier_freeze_unfreeze - passed
+2024-10-07 10:45:46,227 - tests.conftest - INFO - Test tests/test_model.py::test_flag_classifier_forward[input_shape0] - passed
+2024-10-07 10:45:46,628 - tests.conftest - INFO - Test tests/test_model.py::test_flag_classifier_forward[input_shape1] - passed
+2024-10-07 10:45:47,338 - tests.conftest - INFO - Test tests/test_model.py::test_flag_classifier_forward[input_shape2] - passed
+2024-10-07 10:45:47,673 - tests.conftest - INFO - Test tests/test_model.py::test_flag_classifier_multi_label - passed
+2024-10-07 10:45:47,938 - src.predict - INFO - Model and label encoder loaded successfully.
+2024-10-07 10:45:47,938 - tests.conftest - INFO - Test tests/test_predict.py::test_load_model_and_encoder_success - passed
+2024-10-07 10:45:47,940 - src.predict - ERROR - Error loading model and encoder: Ran out of input
+2024-10-07 10:45:47,940 - tests.conftest - INFO - Test tests/test_predict.py::test_load_model_and_encoder_failure - passed
+2024-10-07 10:45:48,225 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[resnet50-False] - passed
+2024-10-07 10:45:48,495 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[resnet50-True] - passed
+2024-10-07 10:45:48,776 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[mobilenet_v2-False] - passed
+2024-10-07 10:45:49,055 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[mobilenet_v2-True] - passed
+2024-10-07 10:45:49,324 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[efficientnet_b0-False] - passed
+2024-10-07 10:45:49,590 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country[efficientnet_b0-True] - passed
+2024-10-07 10:45:49,595 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country_invalid_image - passed
+2024-10-07 10:45:49,599 - src.predict - ERROR - Error loading model and encoder: Ran out of input
+2024-10-07 10:45:49,599 - tests.conftest - INFO - Test tests/test_predict.py::test_predict_country_missing_model - passed
+2024-10-07 10:45:49,875 - src.predict - INFO - Model and label encoder loaded successfully.
+2024-10-07 10:45:49,876 - tests.conftest - INFO - Test tests/test_predict.py::test_logging - passed
+2024-10-07 10:45:50,149 - src.predict - INFO - Model and label encoder loaded successfully.
+2024-10-07 10:45:50,150 - tests.conftest - INFO - Test tests/test_predict.py::test_prediction_results_logging - passed
+2024-10-07 10:45:51,579 - tests.conftest - INFO - Test tests/test_train.py::test_train_epoch - passed
+2024-10-07 10:45:51,901 - tests.conftest - INFO - Test tests/test_train.py::test_validate_epoch - passed
+2024-10-07 10:45:52,215 - tests.conftest - INFO - Test tests/test_train.py::test_train_single_model - passed
+2024-10-07 10:45:52,669 - tests.conftest - INFO - Test tests/test_train.py::test_cross_validate_model - passed
+2024-10-07 10:45:52,686 - tests.conftest - INFO - Test tests/test_train.py::test_analyze_cv_results - passed
+2024-10-07 10:45:52,695 - tests.conftest - INFO - Test tests/test_train.py::test_compare_models - passed
+2024-10-07 10:45:56,316 - tests.conftest - INFO - Test tests/test_train.py::test_train_epoch_multi_label[True] - passed
+2024-10-07 10:45:57,491 - tests.conftest - INFO - Test tests/test_train.py::test_train_epoch_multi_label[False] - passed
+2024-10-07 10:45:57,765 - tests.conftest - INFO - Test tests/test_train.py::test_train_single_model_early_stopping - passed
+2024-10-07 10:45:57,999 - tests.conftest - INFO - Test tests/test_train.py::test_train_single_model_exception_handling - passed
+2024-10-07 10:45:58,008 - tests.conftest - INFO - Test tests/test_train.py::test_train_models - passed
+2024-10-07 10:45:58,011 - tests.conftest - INFO - Test tests/test_train.py::test_train_models_cross_validation - passed
+2024-10-07 10:45:58,013 - tests.conftest - INFO - Test tests/test_train.py::test_train_models_exception_handling - passed
+2024-10-07 10:45:58,014 - tests.conftest - INFO - Test session finished at 2024-10-07 10:45:58.014005 with exit status: 0

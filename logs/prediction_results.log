@@ -1,0 +1,237 @@
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png --model mobilenet_v2
+2024-10-04 04:17:46,858 - root - INFO - Logging setup completed.
+2024-10-04 04:17:46,859 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:17:46,940 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png using mobilenet_v2: abkhazia
+2024-10-04 04:17:47,058 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\poland.png --model mobilenet_v2  
+2024-10-04 04:18:36,588 - root - INFO - Logging setup completed.
+2024-10-04 04:18:36,588 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:18:36,662 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using mobilenet_v2: south_ossetia
+2024-10-04 04:18:36,708 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png --model mobilenet_v2
+2024-10-04 04:19:23,198 - root - INFO - Logging setup completed.
+2024-10-04 04:19:23,198 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:19:23,269 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png using mobilenet_v2: zambia
+2024-10-04 04:19:23,309 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png --model efficientnet_b0
+2024-10-04 04:19:43,525 - root - INFO - Logging setup completed.
+2024-10-04 04:19:43,525 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:19:43,626 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png using efficientnet_b0: abkhazia
+2024-10-04 04:19:43,671 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\poland.png --model efficientnet_b0
+2024-10-04 04:20:02,241 - root - INFO - Logging setup completed.
+2024-10-04 04:20:02,242 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:20:02,351 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using efficientnet_b0: poland
+2024-10-04 04:20:02,397 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png --model efficientnet_b0
+2024-10-04 04:20:24,761 - root - INFO - Logging setup completed.
+2024-10-04 04:20:24,761 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:20:24,863 - src.predict - INFO - Model and label encoder loaded successfully.
+2024-10-04 04:20:24,761 - root - INFO - Logging setup completed.
+2024-10-04 04:20:24,761 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:20:24,863 - src.predict - INFO - Model and label encoder loaded successfully.
+2024-10-04 04:20:24,761 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:20:24,863 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png using efficientnet_b0: zambia
+2024-10-04 04:20:24,910 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png --model resnet50
+2024-10-04 04:21:16,972 - root - INFO - Logging setup completed.
+2024-10-04 04:21:16,972 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:17,237 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png using resnet50: abkhazia
+2024-10-04 04:21:17,279 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\poland.png --model resnet50
+2024-10-04 04:21:41,420 - root - INFO - Logging setup completed.
+2024-10-04 04:21:16,972 - root - INFO - Logging setup completed.
+2024-10-04 04:21:16,972 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:17,237 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png using resnet50: abkhazia
+2024-10-04 04:21:17,279 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\poland.png --model resnet50
+2024-10-04 04:21:41,420 - root - INFO - Logging setup completed.
+2024-10-04 04:21:41,420 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:41,700 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using resnet50: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\abkhazia.png using resnet50: abkhazia
+2024-10-04 04:21:17,279 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\poland.png --model resnet50
+2024-10-04 04:21:41,420 - root - INFO - Logging setup completed.
+2024-10-04 04:21:41,420 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:41,700 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using resnet50: poland
+2024-10-04 04:21:41,420 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:41,700 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using resnet50: poland
+2024-10-04 04:21:41,747 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png --model resnet50
+2024-10-04 04:21:56,278 - root - INFO - Logging setup completed.
+2024-10-04 04:21:56,279 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:41,747 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png --model resnet50
+2024-10-04 04:21:56,278 - root - INFO - Logging setup completed.
+2024-10-04 04:21:56,279 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:56,278 - root - INFO - Logging setup completed.
+2024-10-04 04:21:56,279 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:21:56,555 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png using resnet50: zambia
+2024-10-04 04:21:56,600 - __main__ - INFO - Exiting the application
+2024-10-04 04:21:56,555 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\zambia.png using resnet50: zambia
+2024-10-04 04:21:56,600 - __main__ - INFO - Exiting the application
+2024-10-04 04:21:56,600 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png --model mobilenet_v2
+2024-10-04 04:22:44,695 - root - INFO - Logging setup completed.
+2024-10-04 04:22:44,695 - __main__ - INFO - Starting the Flag Prediction application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png --model mobilenet_v2
+2024-10-04 04:22:44,695 - root - INFO - Logging setup completed.
+2024-10-04 04:22:44,695 - __main__ - INFO - Starting the Flag Prediction application
+2024-10-04 04:22:44,695 - root - INFO - Logging setup completed.
+2024-10-04 04:22:44,695 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:22:44,774 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using mobilenet_v2: netherlands
+2024-10-04 04:22:44,816 - __main__ - INFO - Exiting the application
+Exiting the application
+Starting the Flag Prediction application
+2024-10-04 04:22:44,774 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using mobilenet_v2: netherlands
+2024-10-04 04:22:44,816 - __main__ - INFO - Exiting the application
+Exiting the application
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using mobilenet_v2: netherlands
+2024-10-04 04:22:44,816 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png --model efficientnet_b0
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png --model efficientnet_b0
+2024-10-04 04:23:01,385 - root - INFO - Logging setup completed.
+2024-10-04 04:23:01,385 - root - INFO - Logging setup completed.
+2024-10-04 04:23:01,385 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:23:01,487 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using efficientnet_b0: indonesia
+2024-10-04 04:23:01,535 - __main__ - INFO - Exiting the application
+Exiting the application
+(flag_prediction) PS K:\Work_proj\flag_prediction_project> python run.py predict K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png --model resnet50
+2024-10-04 04:23:17,808 - root - INFO - Logging setup completed.
+2024-10-04 04:23:17,808 - __main__ - INFO - Starting the Flag Prediction application
+Starting the Flag Prediction application
+2024-10-04 04:23:18,064 - src.predict - INFO - Model and label encoder loaded successfully.
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using resnet50: germany
+2024-10-04 04:23:18,116 - __main__ - INFO - Exiting the application
+Exiting the applicationPredicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using resnet50: germany
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using efficientnet_b0: indonesia
+
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using efficientnet_b0: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using efficientnet_b0: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using mobilenet_v2: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using resnet50: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\poland.png using efficientnet_b0: poland
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using efficientnet_b0: indonesia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using resnet50: indonesia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\indonesia.png using mobilenet_v2: indonesia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\mongolia.png using efficientnet_b0: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\mongolia.png using mobilenet_v2: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\mongolia.png using resnet50: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_10.png using resnet50: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_10.png using mobilenet_v2: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_10.png using efficientnet_b0: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_82.png using resnet50: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_82.png using efficientnet_b0: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\mongolia_82.png using mobilenet_v2: mongolia
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\sri_lanka.png using resnet50: sri_lanka
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\sri_lanka.png using mobilenet_v2: sri_lanka
+Predicted country for image K:\Work_proj\flag_prediction_project\data\flag_images\sri_lanka.png using efficientnet_b0: sri_lanka
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\sri_lanka_16.png using mobilenet_v2: sri_lanka
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\sri_lanka_16.png using efficientnet_b0: sri_lanka
+Predicted country for image K:\Work_proj\flag_prediction_project\data\processed\sri_lanka_16.png using resnet50: sri_lanka
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-21\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-21\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-22\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-22\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-23\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-23\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-24\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-24\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-25\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-25\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-26\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-26\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-27\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-27\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-28\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-28\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-29\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-29\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-30\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-30\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-31\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-31\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-32\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-32\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-33\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-33\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-34\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-34\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-35\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-35\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-46\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-46\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-97\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-97\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-120\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-120\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-125\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-125\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-126\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-126\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-128\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-128\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-129\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-129\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-130\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-130\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-131\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-131\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-139\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-139\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-147\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-147\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-153\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-153\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-154\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-154\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country
+Predicted countries for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_predict_command0\test_image.png using resnet50: Test Country
+Predicted country for image C:\Users\srude\AppData\Local\Temp\pytest-of-srude\pytest-162\test_predict_command_logging0\test_image.png using efficientnet_b0: Test Country

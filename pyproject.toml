@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flag_prediction_project"
+version = "3.0"
+description = "A project for flag prediction"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "requests",
+    "beautifulsoup4",
+    "pillow",
+    "scikit-learn",
+    "tqdm",
+    "opencv-python-headless",
+    "scikit-image",
+    "matplotlib",
+    "seaborn",
+    "click",
+    "imbalanced-learn",
+    "pandas",
+    "torch",
+    "torchvision",
+    "scipy",
+    "cairosvg==2.5.2",
+]
+
+[project.scripts]
+flag_predict = "src.cli:cli"
+
+[tool.setuptools]
+packages = ["src"]
