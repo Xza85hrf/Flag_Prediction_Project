@@ -97,7 +97,7 @@ flag_prediction_project/
 1. **Clone the Repository**
 
    ```sh
-   git clone https://github.com/username/flag_prediction_project.git
+   git clone https://github.com/Xza85hrf/flag_prediction_project.git
    cd flag_prediction_project
    ```
 
