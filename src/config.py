@@ -202,8 +202,7 @@ def ensure_directories() -> None:
         LOG_DIR,
     ]
     for directory in directories:
-        if not os.path.exists(directory):
-            os.makedirs(directory)
+        os.makedirs(directory, exist_ok=True)
 
 
 # Data file path
