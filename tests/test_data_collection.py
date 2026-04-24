@@ -17,6 +17,23 @@ from src import config
 from unittest.mock import MagicMock
 
 
+def _cairo_available() -> bool:
+    """Check if cairocffi can load the native libcairo-2 library.
+
+    On Windows without GTK/MSYS2 installed, libcairo-2.dll is missing and
+    importing cairosvg raises OSError at import time. We skip SVG-conversion
+    tests in that case — it's an external-artifact dependency, not a code bug.
+    """
+    try:
+        import cairosvg  # noqa: F401
+        return True
+    except (OSError, ImportError):
+        return False
+
+
+_CAIRO_AVAILABLE = _cairo_available()
+
+
 @pytest.fixture
 def mock_session(mocker):
     """
@@ -82,10 +99,14 @@ def test_download_flag_images(tmp_path, mocker, caplog):
             "image/png",
             "test_country.png",
         ),
-        (
+        pytest.param(
             ("svg_country", "https://example.com/flag.svg"),
             "image/svg+xml",
             "svg_country.png",
+            marks=pytest.mark.skipif(
+                not _CAIRO_AVAILABLE,
+                reason="requires libcairo-2 native library (cairosvg dependency)",
+            ),
         ),
     ],
 )
