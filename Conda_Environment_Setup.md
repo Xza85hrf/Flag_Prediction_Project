@@ -28,7 +28,7 @@ If you don't have a CUDA-capable GPU, use this command:
 conda install pytorch torchvision cpuonly -c pytorch
 ```
 
-For CUDA 11.7 (adjust based on your CUDA version):
+For CUDA 11.8 (adjust `pytorch-cuda=` to match your installed CUDA runtime):
 
 ```bash
 conda install pytorch torchvision pytorch-cuda=11.8 -c pytorch -c nvidia
@@ -55,15 +55,7 @@ cd path/to/flag_prediction_project
 pip install -e .
 ```
 
-## 8. Create a requirements file
-
-Create a `requirements.txt` file in your project directory:
-
-```bash
-pip freeze > requirements.txt
-```
-
-## 9. Test the installation
+## 8. Test the installation
 
 Run a simple Python command to check if everything is installed correctly:
 
@@ -73,7 +65,7 @@ python -c "import torch; import numpy; import pandas; import sklearn; import mat
 
 If this runs without errors, your environment is set up correctly.
 
-## 10. Running the project
+## 9. Running the project
 
 Now you can run your project using:
 

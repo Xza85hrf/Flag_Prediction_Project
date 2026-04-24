@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "flag_prediction_project"
 version = "3.0"
 description = "A project for flag prediction"
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "numpy",
     "requests",
@@ -24,7 +24,7 @@ dependencies = [
     "torch",
     "torchvision",
     "scipy",
-    "cairosvg==2.5.2",
+    "cairosvg>=2.7",
 ]
 
 [project.scripts]
