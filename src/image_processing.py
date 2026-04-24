@@ -167,16 +167,22 @@ def process_images(duplicate_times: Optional[int] = None) -> None:
             for i in range(0, len(input_files), batch_size)
         ]
 
-        # Process batches using multiprocessing
+        # Process batches. When NUM_WORKERS == 1 run in-process so that tests
+        # can patch config attributes (mocker.patch does not cross subprocess
+        # boundaries) and to avoid spawning a pool for a single worker.
         all_results = []
-        with ProcessPoolExecutor(max_workers=config.NUM_WORKERS) as executor:
-            futures = [
-                executor.submit(process_and_augment_batch, batch) for batch in batches
-            ]
-            for future in tqdm(
-                as_completed(futures), total=len(futures), desc="Processing batches"
-            ):
-                all_results.extend(future.result())
+        if config.NUM_WORKERS <= 1:
+            for batch in tqdm(batches, desc="Processing batches"):
+                all_results.extend(process_and_augment_batch(batch))
+        else:
+            with ProcessPoolExecutor(max_workers=config.NUM_WORKERS) as executor:
+                futures = [
+                    executor.submit(process_and_augment_batch, batch) for batch in batches
+                ]
+                for future in tqdm(
+                    as_completed(futures), total=len(futures), desc="Processing batches"
+                ):
+                    all_results.extend(future.result())
 
         print("Image augmentation completed. Creating CSV file...")
         create_processed_data_csv(all_results, config.DATA_PATH)
